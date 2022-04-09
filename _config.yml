@@ -42,8 +42,16 @@ navigation_links:
 # Footer icons
 footer_links:
   - title: Feed
-    url: feed.xml
+    url: /feed.xml
     icon: fa fa-rss-square
+
+  - title: Linkedin
+    url: https://www.linkedin.com/in/kfazil
+    icon: fa fa-linkedin-square
+
+  - title: Instagram
+    url: https://www.instagram.com/_kfazil
+    icon: fa fa-instagram
 
   - title: Twitter
     url: https://twitter.com/_kfazil
@@ -52,6 +60,10 @@ footer_links:
   - title: GitHub
     url: https://github.com/kfazil
     icon: fa fa-github-square
+
+  - title: Pinterest
+    url: https://www.pinterest.com/khan_fazil/
+    icon: fa fa-pinterest-square
 
 # Enter your copyright text if you wish to override the default one.
 #copyright: "This site is made with <3 by *me, myself, and I*."
