@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.5/plyr.css" media="print" onload="this.media='all'"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" media="print" onload="this.media='all'"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css" integrity="sha384-zTROYFVGOfTw7JV7KUu8udsvW2fx4lWOsCEDqhBreBwlHI4ioVRtmIvEThzJHGET" crossorigin="anonymous" media="print" onload="this.media='all'"/>
-
+    <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
   </head>
 
   <body>
@@ -123,6 +123,17 @@
       }
       const darkmode = new Darkmode(options);
             darkmode.showWidget();
+    </script>
+
+    <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+    <script>
+    initComments({
+      node: document.getElementById("comment-section"),
+      defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+      serverName: "cactus.chat",
+      siteName: "www.fazil.tech",
+      commentSectionId: "section1"
+    })
     </script>
 
   </body>
