@@ -1,0 +1,15 @@
+--- 
+layout: default
+---
+
+<h2>Posts by category: <span id="abc" style="color:{{page.text_color}}; background-color: {{page.background_color}}">{{page.title}}</span></h2>
+<ul>
+  {% assign filtered_posts = site.posts | where: 'category', page.slug %}
+  {% for post in filtered_posts %}
+    <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<!-- <script>
+    document.getElementById('abc').style.color = 'color:{{page.text_color}}';
+</script> -->

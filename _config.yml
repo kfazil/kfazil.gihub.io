@@ -18,7 +18,7 @@ avatar: /assets/image/avatar.png
 # Flags below are optional
 #
 
-# Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
+# Your website URL (e.g. https://www.example.com)
 # Used for Sitemap.xml and your RSS feed
 url: "https://www.fazil.tech"
 
@@ -27,6 +27,10 @@ url: "https://www.fazil.tech"
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
+
+collections:
+  categories:
+    output: true
 
 # Navigation menu
 navigation_links:
