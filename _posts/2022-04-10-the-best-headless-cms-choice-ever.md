@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: The best headless CMS choice ever
 date: 2022-04-10T11:55:32.124Z
 thumbnail: /assets/images/uploads/netlify-cms.jpg

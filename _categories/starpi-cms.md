@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Starpi CMS
-slug: strapi-cms
+layout: category
+slug: starpi-cms
 text_color: "#ffffff"
 background_color: "#8c4bff"
 ---
