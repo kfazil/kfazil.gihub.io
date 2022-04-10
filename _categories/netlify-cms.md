@@ -1,8 +1,7 @@
 ---
 title: Netlify CMS
-layout: categoryes
+layout: category
 slug: netlify-cms
-date: 2022-04-10T09:21:26.511Z
-text-color: "#7ca511"
-background-color: "#000000"
+text_color: "#7ca511"
+background_color: "#000000"
 ---
